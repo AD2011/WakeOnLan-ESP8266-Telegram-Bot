@@ -1,8 +1,6 @@
-// Uses an ESP8266 by Abir Dey
-
-// ----------------------------
+// ------------By: Abir Dey----------------
 // Standard Libraries - Already Installed if you have ESP8266 set up
-// ----------------------------
+// ----------------------------------------
 
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
@@ -14,12 +12,13 @@
 
 #include <WakeOnLan.h>
 // Library for sending the WOL magic packet
-// Needs to be installed from GitHub
+// Needs to be installed from GitHub: 
+// Paste Link Below in: File>Preferences>Additional Board URLs
 // https://github.com/koenieee/WakeOnLan-ESP8266
 
 #include <UniversalTelegramBot.h>
 // Library for interacting with the Telegram API
-// Search for "Telegegram" in the Library manager and install
+// Search for "Telegram" in the Library manager and install
 // The universal Telegram library
 // https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
 
@@ -32,17 +31,17 @@
 
 
 // ----------------------------
-// Replace the following!
+// Replace the following
 // ----------------------------
 
-char ssid[] = "SSID";         // your network SSID (name)
+char ssid[] = "SSID";         // your network SSID (Wi-Fi name)
 char password[] = "password"; // your network password
 
 // Get from the "botFather" on telegram
 #define TELEGRAM_BOT_TOKEN "12345679:XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 struct targetDevice {
-  byte mac[6]; //The targets MAC address
+  byte mac[6]; //The target's MAC address
   String deviceName;
 };
 
