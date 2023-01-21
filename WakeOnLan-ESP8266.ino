@@ -1,16 +1,4 @@
-/*******************************************************************
-    Send a WOL to a machine triggered from Telegram
-
-    Wake on Lan is a standard for waking computers out of a power
-    saving mode.
-
-    Uses just an ESP8266
-
-    By Brian Lough
-    YouTube: https://www.youtube.com/brianlough
-    Tindie: https://www.tindie.com/stores/brianlough/
-    Twitter: https://twitter.com/witnessmenow
- *******************************************************************/
+// Uses an ESP8266 by Abir Dey
 
 // ----------------------------
 // Standard Libraries - Already Installed if you have ESP8266 set up
